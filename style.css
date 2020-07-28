@@ -139,13 +139,16 @@ section p{
     text-align: center;
 }
 @media(max-width: 768px){
-    header,
     header #branding,
     header nav,
     header nav li{
         float: none;
         text-align: center;
         width: 100%;
+    }
+
+    header{
+        width: 110%;
     }
     body{
         background: url('assets/background.png') no-repeat -555px -270px;
