@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Survey web app for SRM Dental College">
+	  <meta name="keywords" content="dental, srm, hospital, dentist, Ramapuram, teeth, tooth">
+    <meta name="author" content="Monish B">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <title>Dental Survey | SRM Dental College | Ramapuram</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <div id="branding">
+          <img src="assets/logo.png" alt="">
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="http://srmdentalcollege.ac.in/about-srm/" target="_blank">ABOUT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="user-form">
+      <form name="submit-to-google-sheet">
+        <div class="wrapper">
+          <p id="main-hd">Please fill out the survey</p>
+          <label>Enter your name</label>
+          <input type="text" name="name" placeholder="Name" required autocomplete="off" autofocus>
+
+          <label>Enter your age</label>
+          <input type="number" name="age" placeholder="Age" required>
+
+          <p id="second-hd">What makes you avoid dental visits?</p>
+
+          <label>Dental Environment</label>
+          <div><input id="first" type="radio" name="env" value=1 required> Yes
+          <input id="second" type="radio" name="env" value=0> No</div>
+          
+          <label>Dental Ambience</label>
+          <div><input type="radio" name="amb" value=1 required> Yes
+          <input type="radio" name="amb" value=0> No</div>
+
+          <label>Dental Auxillaries</label>
+          <div><input type="radio" name="aux" value=1 required> Yes
+          <input type="radio" name="aux" value=0> No</div>
+
+          <label>Dental Instruments</label>
+          <div><input type="radio" name="ins" value=1 required> Yes
+          <input type="radio" name="ins" value=0> No</div>
+
+          <label>Dental Procedures</label>
+          <div><input type="radio" name="proc" value=1 required> Yes
+          <input type="radio" name="proc" value=0> No</div>
+
+          <label>Dental Injections</label>
+          <div><input type="radio" name="injec" value=1 required> Yes
+          <input type="radio" name="injec" value=0> No</div>
+
+          <label>Dental Chemicals</label>
+          <div><input type="radio" name="chem" value=1 required> Yes
+          <input type="radio" name="chem" value=0> No</div>
+
+          <label>Equipment Noise</label>
+          <div><input type="radio" name="noise" value=1 required> Yes
+          <input type="radio" name="noise" value=0> No</div>
+
+          <label>Dental Materials</label>
+          <div><input type="radio" name="mater" value=1 required> Yes
+          <input type="radio" name="mater" value=0> No</div>
+
+          <label>Dental Team</label>
+          <div><input type="radio" name="team" value=1 required> Yes
+          <input type="radio" name="team" value=0> No</div>
+
+          <label>Dental Support Staff</label>
+          <div><input type="radio" name="staff" value=1 required> Yes
+          <input type="radio" name="staff" value=0> No</div>
+
+          <div id="submit-div">
+            <button id="sub-button" type="submit">Submit</button>
+          </div>
+
+        </div>
+      </form>
+    </section>
+
+    <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+    <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+    <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
