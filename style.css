@@ -22,6 +22,10 @@ ul{
     padding:0;
 }
 
+#user-form{
+    width: max-content;
+    margin: auto;
+}
 /* Header **/
 header{
     background: #333;
