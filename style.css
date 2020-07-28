@@ -106,7 +106,7 @@ form input[type="text"]:focus, form input[type="number"]:focus{
     margin: auto;
     row-gap: 1em;
     column-gap: 3em;
-    padding: 10px;
+    padding: 20px;
 }
 
 .wrapper #main-hd{
@@ -146,9 +146,11 @@ section p{
         text-align: center;
         width: 100%;
     }
-
     header{
         width: 110%;
+    }
+    .wrapper{
+        margin-left: 10px;
     }
     body{
         background: url('assets/background.png') no-repeat -555px -270px;
