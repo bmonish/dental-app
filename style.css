@@ -25,6 +25,7 @@ ul{
 #user-form{
     width: max-content;
     margin: auto;
+    min-height: 78vh;
 }
 /* Header **/
 header{
