@@ -10,6 +10,7 @@
 body{
     background:url('assets/background.png') no-repeat 0 -270px;
     background-size: cover;
+    height: 100%;
 }
 .container{
     width:95%;
@@ -32,7 +33,7 @@ header{
     color: #fff;
     padding: 5px;
     min-height: 60px;
-    border-bottom: #e9a41f solid 3px;
+    border-bottom: #e9a41f solid 5px;
 }
 
 header #branding{
@@ -105,12 +106,13 @@ form input[type="text"]:focus, form input[type="number"]:focus{
     width: fit-content;
     margin: auto;
     row-gap: 1em;
+    min-height: 80%;
     column-gap: 3em;
     padding: 20px;
 }
 
 .wrapper #main-hd{
-    font-size: 30px;
+    font-size: 40px;
     color: #f7240d;
 }
 
@@ -138,6 +140,21 @@ form input[type="text"]:focus, form input[type="number"]:focus{
 section p{
     text-align: center;
 }
+
+footer{
+    padding:24px;
+    margin-top:20px;
+    color:#ffffff; 
+    background-color:#333; 
+    text-align: center;
+    border-bottom: #e9a41f solid 5px;
+}
+
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+}
+
 @media(max-width: 768px){
     header #branding,
     header nav,
