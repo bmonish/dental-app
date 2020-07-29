@@ -130,9 +130,13 @@ form input[type="text"]:focus, form input[type="number"]:focus{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.one-sec p{
+.one-sec #thanks-p{
     font-size: 40px;
     padding: 20px;
+}
+
+.one-sec{
+    min-height: 78vh;
 }
 
 section p{
