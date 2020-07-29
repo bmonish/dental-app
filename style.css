@@ -170,6 +170,10 @@ footer p{
     .wrapper{
         width: 100vw;
     }
+
+    footer{
+        width: 100vw;
+    }
     body{
         background: url('assets/background.png') no-repeat -555px -270px;
     }
