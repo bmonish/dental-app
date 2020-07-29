@@ -140,17 +140,19 @@ section p{
 }
 
 footer{
-    padding:24px;
     margin-top:20px;
-    color:#ffffff; 
-    background-color:#333; 
     text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 5px;
+    min-height: 60px;
     border-bottom: #e9a41f solid 5px;
 }
 
 footer p{
     font-family: Arial, Helvetica, sans-serif;
     opacity: 0.6;
+    padding: 24px;
 }
 
 @media(max-width: 768px){
