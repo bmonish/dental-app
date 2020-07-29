@@ -164,14 +164,12 @@ footer p{
     header{
         width: 110%;
     }
-
+    footer{
+        width: 110%;
+    }
     .wrapper{
         width: 100vw;
     }
-
-    /* footer{
-        width: 110%;
-    } */
 
     body{
         background: url('assets/background.png') no-repeat -555px -270px;
