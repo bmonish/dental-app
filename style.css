@@ -171,9 +171,9 @@ footer p{
     }
 
     footer{
-        width: 100vw;
+        width: 110%;
     }
-    
+
     body{
         background: url('assets/background.png') no-repeat -555px -270px;
     }
