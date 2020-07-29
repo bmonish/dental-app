@@ -145,7 +145,6 @@ footer{
     color:#ffffff; 
     background-color:#333; 
     text-align: center;
-    width: 100%;
     border-bottom: #e9a41f solid 5px;
 }
 
@@ -170,9 +169,9 @@ footer p{
         width: 100vw;
     }
 
-    footer{
+    /* footer{
         width: 110%;
-    }
+    } */
 
     body{
         background: url('assets/background.png') no-repeat -555px -270px;
